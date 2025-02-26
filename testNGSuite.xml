@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="automationFramework">
+	<listeners>
+		
+	</listeners>
+	<test name="Test">
+		<parameter name="className" value="automationCode.registerClass"/>
+		<parameter name="className" value="automationCode.bookStoreApplication"/>
+        <parameter name="className" value="automationCode.elementsClass"/>
+        <parameter name="className" value="automationCode.formClass"/>
+        <parameter name="className" value="automationCode.widgetClass"/>
+		<classes>
+			<class name="automationCode.registerClass"/>
+			<class name="automationCode.bookStoreApplication"/>
+			<class name="automationCode.elementsClass"/>
+			<class name="automationCode.formClass"/>
+			<class name="automationCode.widgetClass"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
